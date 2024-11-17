@@ -22,7 +22,7 @@ class FavoriteJokesScreen extends StatefulWidget {
 }
 
 class _FavoriteJokesScreenState extends State<FavoriteJokesScreen> {
-  int _favoriteIndex = -1; // Track the index of the favorite joke (-1 means none is favorited)
+  int _favoriteIndex = -1; 
 
   void setFavorite(int index) {
     setState(() {

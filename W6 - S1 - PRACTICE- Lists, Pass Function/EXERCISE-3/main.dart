@@ -17,7 +17,7 @@ class _TemperatureAppState extends State<TemperatureApp> {
 
   void switchScreen(){
     setState(() {
-      showWelcomeScreen = false;
+      showWelcomeScreen = !showWelcomeScreen;
     });
   }
   
